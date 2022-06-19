@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Bootstrap Form</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container py-5">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="text-center text-uppercase h2-md h3-sm">
+            Please Fill the form
+          </h1>
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="Email"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="Password"
+                class="form-control w-md-100"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary mt-2 btn-sm">
+              Submit Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
